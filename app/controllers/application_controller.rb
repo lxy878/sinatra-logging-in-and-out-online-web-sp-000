@@ -12,7 +12,7 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/login' do
-    User.find_by(params)
+    @user = User.find_by(params)
   end
 
   get '/account' do
