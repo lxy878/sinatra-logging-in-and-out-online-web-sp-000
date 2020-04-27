@@ -4,8 +4,8 @@ class Helpers
     session[:user_id]
   end
 
-  def self.is_logged_in?
-
+  def self.is_logged_in?(session)
+    
   end
   
 end
